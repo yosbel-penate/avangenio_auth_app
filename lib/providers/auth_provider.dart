@@ -12,7 +12,7 @@ class AuthProvider extends ChangeNotifier {
 
   Future<void> login(String username, String password, String email) async {
     // Aquí deberías realizar la autenticación, por ejemplo, con un servicio API
-    // En este ejemplo, simplemente asumimos que el inicio de sesión es exitoso
+    // En este  ejemplo, simplemente asumimos que el inicio de sesión es exitoso
     if(username == 'corso' && password == '123'){
       // Simulamos la autenticación exitosa
       _user.updateUser(username, email);
